@@ -1,0 +1,283 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 700px){
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+
+}
+
+h2.titulo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+header{
+    padding: 40px 4%;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+header a{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.700);
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+header a:hover{
+    color: aqua;
+    text-shadow: 0px 0px  20px aqua;
+    transform: scale(1.08);
+    
+    
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 30px;
+    
+
+}
+
+.btn-contato button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    background-color: aqua;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 10px aqua;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+
+}
+
+section.topo-do-site{
+    padding: 40px 4%;
+    
+}
+
+.topo-do-site .text-main h1{
+    color: white;
+    font-size: 2.5em;
+    line-height: 35px;
+
+}
+
+span{
+    color: aqua;
+
+}
+
+.topo-do-site .text-main p{
+    color: white;
+    font-size: 1.3em;
+    margin: 40px 0px;
+    display: inline-block;
+    width: 70%;
+
+}
+
+.topo-do-site .img-main img{
+    position: relative;
+    animation: flutter 2s ease-in-out infinite alternate;
+    @media only screen and (max-width: 700px){
+        margin: 20px 0px 70px 0px;
+
+    }
+
+}
+
+@keyframes flutter{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+section.trabalhos{
+    padding: 40px 4%;
+
+}
+
+section.trabalhos .flex{
+    gap: 60px;
+
+}
+
+.trabalhos .trabalhos-box{
+    color: white;
+    padding: 30px;
+    margin: 50px 0px;
+    transition: 0.2s;
+    @media only screen and (max-width: 700px){
+        margin: 20px 0px;
+
+    }
+
+}
+
+.trabalhos .trabalhos-box:hover{
+    box-shadow: 0px 0px 10px aqua;
+    border-radius: 20px;
+    transform: scale(1.05);
+    
+}
+
+.trabalhos .trabalhos-box i{
+    font-size: 70px;
+    color: aqua;
+
+}
+
+.trabalhos .trabalhos-box h3{
+    font-size: 1.5em;
+    margin: 15px 0px;
+
+}
+
+section.projetos{
+    padding: 80px 4%;
+    box-shadow: 0px 0px 20px 10px #00ffff46;
+    
+    
+}
+
+section.projetos .titulo-pro{
+    display: inline-block;
+    justify-content: space-around;
+
+}
+
+.img-pro{
+    background-color: aqua;
+    width: 20vw;
+    height: 460px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px;
+    border: 1px solid aqua;
+    cursor: pointer;
+    position: relative;
+
+    @media only screen and (max-width: 700px){
+        margin: 20px;
+        width: 40vw;
+        max-width: 300px;
+
+    }
+    
+}
+
+.img-pro:hover{
+
+
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.overlay:hover{
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer a{
+    color: aqua;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    text-shadow: 0px 0px  20px aqua;
+
+}
