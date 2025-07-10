@@ -185,6 +185,11 @@ section.trabalhos .flex{
 
 }
 
+.trabalhos .trabalhos-box p{
+    font-size: 1.3em;
+
+}
+
 section.projetos{
     padding: 80px 4%;
     box-shadow: 0px 0px 20px 10px #00ffff46;
