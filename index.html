@@ -131,7 +131,36 @@
                             </div>
                         </div>
                     </article>
+            </div>
+        </section>
 
+        <section class="formulario">
+            <div class="interface">
+                    <div class="flex">
+                        <form action="javascript/form.js" method="post" autocomplete="off">
+                            <h2>Fale comigo<span>.</span></h2>
+                            <p>
+                                <label for="inome">Nome: </label>
+                                <input type="text" name="nome" id="inome" required autocomplete="name">
+                            </p>
+                            <p>
+                                <label for="itel">Telefone: </label>
+                                <input type="tel" name="tel" id="itel" required autocomplete="tel">
+                            </p>
+                            <p>
+                                <label for="iemail">Email: </label>
+                                <input type="email" name="email" id="iemail" required autocomplete="email">
+                            </p>
+                            <p>
+                                <label for="imgs">Mensagem:</label>
+                                <textarea id="imsg" name="msg" rows="10" cols="40" placeholder="Digite sua mensagem aqui..."></textarea>
+
+                            </p>
+                            <p>
+                                <input type="submit" value="Enviar">
+                            </p>
+                        </form>
+                    </div>
             </div>
         </section>
     </main>
