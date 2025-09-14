@@ -27,3 +27,58 @@
     transition: 10s;
     
 }
+
+<button>Entre em contato</button>
+
+Expressando ideias <br> por meio de Sites<span>.</span>
+
+<div class="btn-contato">
+                <a href="#">
+                    <button>contato</button>
+                </a>
+            </div>
+
+.btn-contato button:hover{
+box-shadow: 0px 0px 10px aqua;
+cursor: pointer;
+transition: 0.3s;
+transform: scale(1.05);
+
+}
+
+.btn-contato button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    background-color: aqua;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+<div class="trabalhos-box">
+        <img src="icones/html-5-icon.svg" alt="HTML5">
+        <h3>HTML</h3>
+    </div>
+    <div class="trabalhos-box">
+        <img src="icones/css-3-icon.svg" alt="CSS">
+        <h3>CSS</h3>
+    </div>
+    <div class="trabalhos-box">
+        <img src="icones/javascript-icon.svg" alt="">
+        <h3>JavaScript</h3>
+    </div>
+    <div class="trabalhos-box">
+        <img src="icones/bootstrap-icon.svg" alt="Bootstrap">
+        <h3>Bootstrap</h3>
+    </div>
+    <div class="trabalhos-box">
+        <img src="icones/tailwindcss-icon.svg" alt="Tailwind">
+        <h3>TailwindCss</h3>
+
+        <div class="overlay">
+                                    <a href="https://github.com/devisaquereis/projeto-cordel" target="_blank"><i class="material-icons">code</i></a>
+                                    <a href="https://devisaquereis.github.io/projeto-cordel/" target="_blank"><i class="material-icons">link</i></a>
+                                </div>
